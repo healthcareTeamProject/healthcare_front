@@ -3,7 +3,7 @@ import './style.css'
 import React from 'react'
 
 // component: 상단 로고 컴포넌트 //
-function TopLogo(){
+function TopBar(){
 
     // render: 상단 로고 컴포넌트 //
     return(
@@ -22,13 +22,10 @@ function TopLogo(){
     )
 }
 
-export default function MainLayout() {
+export default function Topbar() {
     return (
             <div id='main-layout'>
-                <TopLogo />
-                <div>
-                    
-                </div>
+                <TopBar />
             </div>
     )
 }
