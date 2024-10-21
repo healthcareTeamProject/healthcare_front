@@ -1,11 +1,11 @@
 import React from 'react'
-import MainLayout from 'src/MainLayout'
+import Topbar from 'src/Topbar'
 
 export default function Main() {
     return (
         <div id='main-wrapper'>
-            <MainLayout />
-            <div></div>
+            <Topbar />
+            <div>test</div>
         </div>
     )
 }
