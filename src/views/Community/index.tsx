@@ -1,9 +1,9 @@
 import React from 'react';
 import Topbar from 'src/Topbar';
 import './style.css';
-import Pagination from 'src/components/pagination';
 import { usePagination } from 'src/hooks';
 import { Board } from 'src/types';
+import Pagination from 'src/components/Pagination';
 
 // 카테고리 컴포넌트
 
