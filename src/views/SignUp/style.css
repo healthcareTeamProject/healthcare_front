@@ -1,7 +1,7 @@
 #su-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 20px;
 
@@ -65,7 +65,7 @@
     width: 240px;
     height: 100%;
     
-    gap: 220px;
+    gap: 160px;
 }
 
 .profile-box {
@@ -85,12 +85,13 @@
     align-items: center;
 
     width: 130px;
-    height: 130px;
+    height: 180px;
 
     border-radius: 8px;
-    background-color: lightgray;
-    
-    
+    background-position: 50% 50%;
+    background-size: cover;
+
+    cursor: pointer;
 }
 
 .bigthree-box {
@@ -163,22 +164,23 @@
 }
 
 .main-home-button,
-.previous-button,
-.signup-button {
+.previous-button {
     background-color: rgba(95, 99, 104, 1);
 }
 
-.next-button {
+.next-button,
+.signup-button {
     cursor: pointer;
-    /* 기본 스타일 */
 }
 
-.next-button.disabled {
+.next-button.disabled,
+.signup-button.disabled {
     cursor: not-allowed;
-    opacity: 0.5; /* 비활성화된 효과 */
-    pointer-events: none; /* 클릭 방지 */
+    opacity: 0.5;
+    pointer-events: none;
 }
 
-.next-button {
+.next-button,
+.signup-button {
     background-color: rgba(167, 167, 167, 1);
 }
